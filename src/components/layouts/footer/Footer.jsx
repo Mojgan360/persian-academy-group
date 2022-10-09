@@ -16,8 +16,8 @@ const Footer = () => {
 export default Footer;
 
 const Wrapper = styled.div`
-  background-color: #140f2d;
-  color: #f2d7ee;
+  background-color: var(--clr-primary-1);
+  color: var(--clr-primary-4);
   height: 5rem;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@ const Wrapper = styled.div`
     color: #fff;
   }
   h5 {
-    color: #f2d7ee;
+    color: var(--clr-primary-3);
     margin: 0.1rem;
     font-weight: 400;
     text-transform: none;

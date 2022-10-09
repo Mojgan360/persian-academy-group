@@ -6,24 +6,37 @@
 
 :root {
   font-family: IRANSansWeb, Inter, Avenir, Helvetica, Arial, sans-serif;
-
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --clr-primary-1: #052239;
+  --clr-primary-2: #60a561;
+  --clr-primary-3: #ff785a;
+  --clr-primary-4: #fcfcfc;
 }
 
-* {
-  font-size: 100%;
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
-} /*16px*/
+  box-sizing: border-box;
+  font-size: 100%;
+}
 
 body {
   font-weight: 400;
   line-height: 1.75;
 }
 
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
 a {
   text-decoration: none;
   letter-spacing: var(--letterSpacing);

@@ -6,6 +6,7 @@ import Footer from "./components/layouts/footer/Footer";
 import hero from "./assets/images/pag.png";
 
 import "./App.css";
+import Home from "./pages/home/Home";
 
 const Container = styled.div`
   margin: 0;
@@ -27,12 +28,7 @@ function App() {
   return (
     <Container>
       <Navbar />
-      <div className="main">
-        <h2>
-          سلام on working.....
-          <img src={hero} alt="hero" />
-        </h2>
-      </div>
+      <Home />
 
       <Footer />
     </Container>
